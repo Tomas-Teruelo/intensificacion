@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #161616;
+}
+
+.logo img {
+    background: none; 
+    display: block;
+    position: absolute;
+    width: 50px;
+    left: 5px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 129px;
+    margin-top: 65px;
+    color: white;
+    font-size: 11px;
+    background: none;
+
+}
+
+.horarios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+.horarios .inicio,
+.horarios .fin {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%; /* Forma circular */
+    background-color: #161616; /* Fondo oscuro */
+    border: 2px solid #c70be0; /* Borde neón */
+    box-shadow: 0 0 10px #da0606, 0 0 20px #da0606, 0 0 30px #c70be0; /* Efecto de neón */
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    padding: 10px 20px;
+    width: 230px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 2px solid #c70be0;
+    color: #fff;
+    background: none;
+    background-color: #b6034d;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px #d6006b, 0 0 20px #d6006b, 0 0 30px #c70be0; /* Efecto neón */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+
+
+
+
+.ubi {
+    margin-left: 19px;
+    margin-top: 40px;
+}
+
+.text2{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.text2 img{
+    width: 50px;
+    margin-left: 40px;
+}
+
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: flex;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.whatsapp-float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.whatsapp-float img {
+    width: 45px; 
+    height: 45px;
+}
+
+.whatsapp-float:active {
+    transform: scale(0.9); 
+}
+
+.whatsapp-message {
+    background-color: #161616;
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 8px; 
+    font-size: 14px;
+    margin-right: 10px; 
+    white-space: nowrap; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    display: none; 
+}
+
+.whatsapp-container:hover .whatsapp-message,
+.whatsapp-container:focus-within .whatsapp-message {
+    display: block; 
+}
+
+
+
+
+
+
+
+.derechos{
+    background-color: #7c0000 !important;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 20px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
